@@ -1,0 +1,34 @@
+F: 1
+ClientTable:
+  "1":
+   URL:  "localhost:1110"
+   PublicKey:
+   PrivateKey:
+NodeTable:
+  "1":
+    URL: "localhost:1111"
+    PublicKey:
+    PrivateKey:
+  "2":
+    URL: "localhost:1112"
+    PublicKey:
+    PrivateKey:
+  "3":
+    URL: "localhost:1113"
+    PublicKey:
+    PrivateKey:
+  "4":
+    URL: "localhost:1114"
+    PublicKey:
+    PrivateKey:
+AccountTable:
+  "1": 1000
+  "2": 1000
+  "3": 1000
+  "4": 1000
+  "5": 1000
+  "6": 1000
+  "7": 1000
+  "8": 1000
+  "9": 1000
+  "10": 1000
