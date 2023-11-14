@@ -1,0 +1,84 @@
+ViewID: 0
+F: 1
+MsgNumber: 500
+SequenceID: 0
+
+AdjustmentRange:
+  MasterReward: 8
+  MasterPunish: 16
+  SecondaryReward: 5
+  SecondaryPunish: 10
+  candidateReward: 0.1
+
+
+CreditTable:
+  Min: 0
+  Bad: 25
+  Init: 50
+  Good: 75
+  Max: 100
+
+
+ClientTable:
+  "1":
+    URL:  "localhost:1110"
+    PublicKey:
+    PrivateKey:
+
+ConsensusNodeTable:
+  "1":
+    URL: "localhost:1111"
+    Credit: 50
+    PublicKey:
+    PrivateKey:
+  "2":
+    URL: "localhost:1112"
+    Credit: 50
+    PublicKey:
+    PrivateKey:
+  "3":
+    URL: "localhost:1113"
+    Credit: 50
+    PublicKey:
+    PrivateKey:
+  "4":
+    URL: "localhost:1114"
+    Credit: 50
+    PublicKey:
+    PrivateKey:
+CandidateNodeTable:
+  "1":
+    URL: "localhost:3001"
+    Credit: 20
+    PenaltyPeriod: 0
+    PublicKey:
+    PrivateKey:
+  "2":
+    URL: "localhost:3002"
+    Credit: 25
+    PenaltyPeriod: 0
+    PublicKey:
+    PrivateKey:
+  "3":
+    URL: "localhost:3003"
+    Credit: 30
+    PenaltyPeriod: 0
+    PublicKey:
+    PrivateKey:
+  "4":
+    URL: "localhost:3004"
+    Credit: 35
+    PenaltyPeriod: 0
+    PublicKey:
+    PrivateKey:
+AccountTable:
+  "1": 1000
+  "2": 1000
+  "3": 1000
+  "4": 1000
+  "5": 1000
+  "6": 1000
+  "7": 1000
+  "8": 1000
+  "9": 1000
+  "10": 1000
